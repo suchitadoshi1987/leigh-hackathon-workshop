@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: Verdana;
+    background-color: #f2f2f2;
+}
+/* navigation */
+nav {
+    padding: .5rem;
+    background-color: #f76c6c;
+    color: white;
+}
+
+nav h1 {
+    font-size: 2rem;
+}
+
+nav h1,
+nav ul {
+    margin: 0;
+}
+
+nav>ul {
+    padding: 0;
+    margin-right: 1rem;
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    padding: .25rem;
+    text-decoration: none;
+    color: #fff;
+}
+/* header */
+header {
+    text-align: center;
+    min-height: 250px;
+    background-image: url("https://picsum.photos/id/1074/1920/600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    padding: .5rem;
+}
+
+header h1 {
+    font-size: 3rem;
+}
